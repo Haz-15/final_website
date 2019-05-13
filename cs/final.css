@@ -14,6 +14,9 @@ body{
 #header{
     background-color: grey;
 }
+#main{
+    font-size: 33px;
+}
 nav li{
     float: right;
     text-align: center;
@@ -26,4 +29,25 @@ nav ul{
 }
 .link{
     padding-top: 30px;
+}
+#content p{
+    font-size: 13px;
+    line-height: 1.6;
+    padding-top: 35px;
+    padding-bottom: 30px;
+
+}
+#content {
+    width: 541px;
+    padding-left: 40px;
+    float: left;
+    clear: both;
+}
+#content img {
+    height: 150px;
+    width: 150px;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    float: left;
 }
