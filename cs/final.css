@@ -38,6 +38,7 @@ nav ul{
     padding-top: 35px;
     padding-bottom: 30px;
     clear: right;
+    padding-right: 13px;
 }
 #content {
     width: 541px;
@@ -56,6 +57,10 @@ nav ul{
     float: left;
     clear: both;
 }
+#content h1{
+    text-align: center;
+    padding-right: 20px;
+}
  
 
 .fullborder{
@@ -67,6 +72,15 @@ nav ul{
     outline: 1px solid #000;
     outline-offset: -4px;
 }
-#sidebar h1{
-    padding-left: 170px;
+#sidebar h2{
+    text-align: center;
+}
+#sidebar h3{
+    text-align: center;
+}
+#sidebar p {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 13px;
+    line-height: 23px;
 }
