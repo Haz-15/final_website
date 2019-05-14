@@ -13,6 +13,8 @@ body{
 }
 #header{
     background-color: grey;
+    outline: 1px solid #000;
+    outline-offset: -4px;
 }
 #main{
     font-size: 33px;
@@ -35,13 +37,15 @@ nav ul{
     line-height: 1.6;
     padding-top: 35px;
     padding-bottom: 30px;
-
+    clear: right;
 }
 #content {
     width: 541px;
     padding-left: 40px;
     float: left;
     clear: both;
+    outline: 1px solid #000;
+    outline-offset: -4px;
 }
 #content img {
     height: 150px;
@@ -50,4 +54,19 @@ nav ul{
     padding-right: 25px;
     padding-bottom: 50px;
     float: left;
+    clear: both;
+}
+ 
+
+.fullborder{
+    border: black solid thin;
+}
+#sidebar {
+    width: 375px;
+    float: left;
+    outline: 1px solid #000;
+    outline-offset: -4px;
+}
+#sidebar h1{
+    padding-left: 170px;
 }
