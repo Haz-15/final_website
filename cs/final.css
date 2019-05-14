@@ -12,6 +12,7 @@ body{
     background-color: silver;
 }
 #header{
+    height: 100px;
     background-color: grey;
     outline: 1px solid #000;
     outline-offset: -4px;
@@ -28,6 +29,7 @@ nav ul{
     list-style-type: none;
     margin: 0;
     overflow: hidden;
+    text-align: center;
 }
 .link{
     padding-top: 30px;
@@ -49,7 +51,7 @@ nav ul{
     outline-offset: -4px;
 }
 #content img {
-    height: 150px;
+    height: 168px;
     width: 150px;
     padding-top: 50px;
     padding-right: 25px;
@@ -77,8 +79,8 @@ nav ul{
 }
 
 #sidebar p {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 13px;
     line-height: 23px;
 }
