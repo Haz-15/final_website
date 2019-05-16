@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    font-family: "Roboto Condensed", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+header{
+    background-color: silver;
+    height: 120px;
+    outline: 1px solid #000;
+    outline-offset: -4px;
+}
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
