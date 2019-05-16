@@ -6,7 +6,7 @@ body{
 }
 #wrapper{
     width: 960px;
-    height: 1553px;
+    height: 1550px;
     margin-left: auto;
     margin-right: auto;
     background-color: silver;
@@ -89,4 +89,32 @@ nav ul{
     padding-top: 30px;
     font-size: 30px;
     margin-top: 40px;
+}
+#work{
+    outline: 1px solid #000;
+    outline-offset: -4px;
+}
+#work h{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    clear: left;
+}
+#work p{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 954px;
+    height: 50px;
+    background-color: silver;
+    color: black;
+    text-align: right;
 }
